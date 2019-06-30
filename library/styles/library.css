@@ -1,0 +1,35 @@
+/** Component Styles here */
+
+.librayContainer{
+	margin: 0 auto;
+	vertical-align: middle;
+	width: 60%;
+}
+
+table{
+	width: 100%;
+}
+
+table 
+	
+	th {
+		border: 1px solid black;
+	}
+
+	td {
+		border: 1px solid lightgrey;
+		text-align: center;
+	}
+
+.formActionType{
+	text-align: right;
+	margin-top: 20px;
+}
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: block;
+}
