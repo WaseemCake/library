@@ -1,0 +1,42 @@
+{
+  "name": "libraryproject",
+  "version": "1.0.0",
+  "description": "Library Management",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WaseemCake"
+  },
+  "keywords": [
+    "Library",
+    "Management",
+    "Books"
+  ],
+  "author": "Waseem",
+  "license": "ISC",
+  "dependencies": {
+    "babel-env": "^2.4.1",
+    "babel-loader": "^7.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.0.0",
+    "express": "^4.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "webpack": "^4.35.0"
+  }
+}
